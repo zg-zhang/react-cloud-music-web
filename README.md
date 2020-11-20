@@ -9,6 +9,7 @@
 
 ```text
 ├─ assets       图片字体等资源
+├─ baseUI       基础样式
 ├─ components   公共组件
 ├─ config       配置
 ├─ constants    常量
@@ -31,4 +32,21 @@
 
 ## 项目亮点
 
+## 有趣的扩展
 
+### StoryBook 组件文档
+
+```bash
+# init
+npx -p @storybook/cli sb init
+```
+
+### Hygen 代码生成器
+
+```bash
+# init
+npm i -g hygen
+cd project
+hygen init self
+hygen generator new component # 创建 component 命令
+```
